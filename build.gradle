@@ -46,6 +46,7 @@ release {
         requireBranch = ''
         preTagCommitMessage = "New release version: "
         newVersionCommitMessage = "New snapshot version: "
+        ignoredSnapshotDependencies = ["net.researchgate:gradle-release"]
     }
 }
 
