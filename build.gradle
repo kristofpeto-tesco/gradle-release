@@ -47,6 +47,7 @@ release {
         preTagCommitMessage = "New release version: "
         newVersionCommitMessage = "New snapshot version: "
         ignoredSnapshotDependencies = ["net.researchgate:gradle-release"]
+        tagTemplate = 'v$version'
     }
 }
 
