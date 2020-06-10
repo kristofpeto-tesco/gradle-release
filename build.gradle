@@ -1,5 +1,6 @@
 buildscript {
     repositories {
+        mavenLocal()
         jcenter {
             url "https://jcenter.bintray.com"
         }
@@ -8,7 +9,7 @@ buildscript {
         classpath 'org.jfrog.buildinfo:build-info-extractor-gradle:4.3.0'
         classpath 'nu.studer:gradle-plugindev-plugin:1.0.4'
         classpath 'org.codehaus.groovy:groovy-backports-compat23:2.4.6'
-        classpath 'net.researchgate:gradle-release:2.6.0'
+        classpath 'net.researchgate:gradle-release:2.8.2-SNAPSHOT'
     }
 }
 
