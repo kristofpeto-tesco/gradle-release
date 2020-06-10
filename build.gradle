@@ -44,6 +44,8 @@ plugindev {
 release {
     git {
         requireBranch = ''
+        preTagCommitMessage = "New release version: "
+        newVersionCommitMessage = "New snapshot version: "
     }
 }
 
